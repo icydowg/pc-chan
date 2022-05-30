@@ -1,0 +1,31 @@
+body {
+	background-color: #291c2d;
+	color: white;
+	font-size: 18px;
+	font-family: 'Comfortaa';
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(38, 24, 45, 0.01));
+	}
+
+h1, h2, h3, h4, h5, h6	{
+	font-family: 'Lemon/Milk';
+	text-shadow: 0px 0px 15px #1F51FF;
+}
+h1{
+	font-size: 55px;
+}
+.grid-title-container {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	column-gap: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.pc-chan-title {
+	margin-top: 19%;
+}
+.website-content {
+	padding: 10px;
+}
+.website-content p {
+	margin-left: 20px;
+}
