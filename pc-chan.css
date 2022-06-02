@@ -58,7 +58,10 @@ h1{
 }
 .outfit-bit {
 	padding: 10px;
+	padding-left: 30px;
 }
-.outfit-bit h2, img{
-	margin-left: 20px;
+.outfits{
+	display: grid;
+	grid-template-columns: max-content max-content max-content max-content;
+	column-gap: 10px;
 }
